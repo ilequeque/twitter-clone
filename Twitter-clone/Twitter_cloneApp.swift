@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct Twitter_cloneApp: App {
+    
+    @StateObject var viewModel = AuthModel()
+    
+    init() {
+        let providerFactory = AppCheckDebugProviderFactory()
+        AppCheck.setAppCheckProviderFactory(providerFactory)
+        
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView() 
+            }
+            .environmentObject(viewModel)
         }
     }
 }
