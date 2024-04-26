@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC24E8002BDB15310084C3A6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24E7FF2BDB15310084C3A6 /* UserService.swift */; };
+		FC24E8022BDB17200084C3A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24E8012BDB17200084C3A6 /* User.swift */; };
 		FC42E7182BD5C87D00BC5F07 /* Twitter_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC42E7172BD5C87D00BC5F07 /* Twitter_cloneApp.swift */; };
 		FC42E71A2BD5C87D00BC5F07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC42E7192BD5C87D00BC5F07 /* ContentView.swift */; };
 		FC42E71C2BD5C87E00BC5F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC42E71B2BD5C87E00BC5F07 /* Assets.xcassets */; };
@@ -66,6 +68,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC24E7FF2BDB15310084C3A6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FC24E8012BDB17200084C3A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FC42E7142BD5C87D00BC5F07 /* Twitter-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42E7172BD5C87D00BC5F07 /* Twitter_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_cloneApp.swift; sourceTree = "<group>"; };
 		FC42E7192BD5C87D00BC5F07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				FC42E7AB2BD87D5700BC5F07 /* ImageUploader.swift */,
+				FC24E7FF2BDB15310084C3A6 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 		FC42E7282BD5C8AF00BC5F07 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC24E8012BDB17200084C3A6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -533,6 +539,7 @@
 			files = (
 				FC42E7402BD5D32300BC5F07 /* MessagesView.swift in Sources */,
 				FC42E7442BD5D4A800BC5F07 /* ProfileView.swift in Sources */,
+				FC24E8002BDB15310084C3A6 /* UserService.swift in Sources */,
 				FC42E7AA2BD7D56200BC5F07 /* ImagePicker.swift in Sources */,
 				FC42E71A2BD5C87D00BC5F07 /* ContentView.swift in Sources */,
 				FC42E7522BD5E4F500BC5F07 /* SideMenuOptionRowView.swift in Sources */,
@@ -550,6 +557,7 @@
 				FC42E7542BD5E50A00BC5F07 /* SideMenuViewModel.swift in Sources */,
 				FC42E7642BD67F7B00BC5F07 /* RegistrationView.swift in Sources */,
 				FC42E75B2BD5F4AC00BC5F07 /* NewTweetView.swift in Sources */,
+				FC24E8022BDB17200084C3A6 /* User.swift in Sources */,
 				FC42E76A2BD6A46D00BC5F07 /* HeaderSignView.swift in Sources */,
 				FC42E7662BD680CD00BC5F07 /* RoundedShape.swift in Sources */,
 				FC42E74B2BD5E0DF00BC5F07 /* UserRowView.swift in Sources */,

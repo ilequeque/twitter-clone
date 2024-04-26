@@ -40,7 +40,7 @@ struct ProfilePhotoSelectorView: View {
             if let selectedImage = selectedImage{
                 Button{
                     viewModel.uploadProfileImage(selectedImage)
-//                    presentationMode.wrappedValue.dismiss()
+                    presentationMode.wrappedValue.dismiss()
                 } label: {
                     Text("Continue")
                         .font(.headline)
